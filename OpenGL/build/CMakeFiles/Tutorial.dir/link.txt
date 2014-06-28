@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/Tutorial.dir/main.cpp.o  -o ../bin/Tutorial -rdynamic -L/usr/lib -lSDL2 -lpthread -lGLEW -lBulletDynamics -lBulletCollision -lLinearMath -lBulletSoftBody -lGLU -lGL -lSM -lICE -lX11 -lXext 
