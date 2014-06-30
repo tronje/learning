@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tronje/Documents/Stuff/main.cpp
+/home/tronje/Documents/learning/OpenGL/main.cpp
 iostream
 -
 cstdio

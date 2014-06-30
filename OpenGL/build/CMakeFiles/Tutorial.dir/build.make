@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tronje/Documents/Stuff
+CMAKE_SOURCE_DIR = /home/tronje/Documents/learning/OpenGL
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tronje/Documents/Stuff/build
+CMAKE_BINARY_DIR = /home/tronje/Documents/learning/OpenGL/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Tutorial.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/Tutorial.dir/flags.make
 
 CMakeFiles/Tutorial.dir/main.cpp.o: CMakeFiles/Tutorial.dir/flags.make
 CMakeFiles/Tutorial.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tronje/Documents/Stuff/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tronje/Documents/learning/OpenGL/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/Tutorial.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/main.cpp.o -c /home/tronje/Documents/Stuff/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/Tutorial.dir/main.cpp.o -c /home/tronje/Documents/learning/OpenGL/main.cpp
 
 CMakeFiles/Tutorial.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tutorial.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tronje/Documents/Stuff/main.cpp > CMakeFiles/Tutorial.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tronje/Documents/learning/OpenGL/main.cpp > CMakeFiles/Tutorial.dir/main.cpp.i
 
 CMakeFiles/Tutorial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tutorial.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tronje/Documents/Stuff/main.cpp -o CMakeFiles/Tutorial.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tronje/Documents/learning/OpenGL/main.cpp -o CMakeFiles/Tutorial.dir/main.cpp.s
 
 CMakeFiles/Tutorial.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/Tutorial.dir/main.cpp.o.requires
@@ -108,6 +108,6 @@ CMakeFiles/Tutorial.dir/clean:
 .PHONY : CMakeFiles/Tutorial.dir/clean
 
 CMakeFiles/Tutorial.dir/depend:
-	cd /home/tronje/Documents/Stuff/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tronje/Documents/Stuff /home/tronje/Documents/Stuff /home/tronje/Documents/Stuff/build /home/tronje/Documents/Stuff/build /home/tronje/Documents/Stuff/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tronje/Documents/learning/OpenGL/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tronje/Documents/learning/OpenGL /home/tronje/Documents/learning/OpenGL /home/tronje/Documents/learning/OpenGL/build /home/tronje/Documents/learning/OpenGL/build /home/tronje/Documents/learning/OpenGL/build/CMakeFiles/Tutorial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tutorial.dir/depend
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/tronje/Documents/Stuff
+# Install script for directory: /home/tronje/Documents/learning/OpenGL
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/home/tronje/Documents/Stuff/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/home/tronje/Documents/learning/OpenGL/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/home/tronje/Documents/Stuff/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/home/tronje/Documents/learning/OpenGL/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

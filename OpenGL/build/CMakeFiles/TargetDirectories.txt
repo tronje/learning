@@ -1,1 +1,1 @@
-/home/tronje/Documents/Stuff/build/CMakeFiles/Tutorial.dir
+/home/tronje/Documents/learning/OpenGL/build/CMakeFiles/Tutorial.dir
