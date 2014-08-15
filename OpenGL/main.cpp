@@ -39,17 +39,13 @@ int main(int argc, char *argv[]) {
     // create the OpenGL Window using SDL
     SDL_Window* window = SDL_CreateWindow("such window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, SDL_WINDOW_OPENGL);
 
-    // creat the OpenGL context using SDL
-    SDL_GLContext context = SDL_GL_CreateContext(window);
-
-    SDL_Event windowEvent;
 
     // create a vertex buffer object (something about GPU memory being allocated or used)
     GLuint vbo;
     glGenBuffers(1, &vbo); // Generate 1 buffer
 
     // a few vertices for to form a triangle
-    GLfloat vertices[] = {
+    float vertices[] = {
         0.0f,  0.5f, // Vertex 1 (X, Y)
         0.5f, -0.5f, // Vertex 2 (X, Y)
         -0.5f, -0.5f  // Vertex 3 (X, Y)
@@ -62,6 +58,10 @@ int main(int argc, char *argv[]) {
     glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
 
     // at this point, we have written a bunch of vertices to GPU memory
+
+    // creat the OpenGL context using SDL
+    SDL_GLContext context = SDL_GL_CreateContext(window);
+    SDL_Event windowEvent;
 
     // the main loop
     while (true){

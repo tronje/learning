@@ -1,34 +1,51 @@
+#include <iomanip>
+#include <ios>
 #include <iostream>
 #include <string>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
+using std::setprecision;
+using std::string;
+using std::streamsize;
 
-int main() {
-    cout << "input pls: " << endl;
-
+int main(){
+    // ask for and read the student's name
+    cout << "Please enter your first name: ";
     string name;
     cin >> name;
+    cout << "Hello, " << name << "!" << endl;
 
-    const string greeting = "Hello, "+name+"!";
+    // ask for and read the midterm and final grades
+    cout << "Please enter your midterm and final exam grades: ";
+    double midterm, final;
+    cin >> midterm >> final;
 
-    const int pad = 1;
-    const int rows = pad * 2 + 3;
+    // ask for the homework grades
+    cout << "Please enter all your homework grades, "
+            "followed by end-of-file: ";
 
-    cout << endl;
+    // the number and sum of grades read so far
+    int count = 0;
+    double sum = 0;
 
-    int r = 0;
+    // a variable into which to read
+    double x;
 
-    while (r != rows) {
-        cout << endl;
-        r++;
+    // invariant:
+    // we have read *count* grades so far, and
+    // *sum* is the sum of the first *count* grades
+    while (cin >> x) {
+        ++count;
+        sum += x;
     }
 
-    const string::size_type cols = greeting.size() + pad * 2 + 2;
+    // write the result
+    streamsize prec = cout.precision();
+    cout << "Your final grade is " << setprecision(3)
+        << 0.2 * midterm + 0.4 * final + 0.4 * sum / count
+        << setprecision(prec) << endl;
 
-    string::size_type c = 0;
-
-    while (c != cols) {
-        
-    }
     return 0;
 }

@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tronje/learning
+CMAKE_SOURCE_DIR = /home/tronje/Documents/learning/acceleratedcpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tronje/learning/build
+CMAKE_BINARY_DIR = /home/tronje/Documents/learning/acceleratedcpp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/learning.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/learning.dir/flags.make
 
 CMakeFiles/learning.dir/main.cpp.o: CMakeFiles/learning.dir/flags.make
 CMakeFiles/learning.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/tronje/learning/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/tronje/Documents/learning/acceleratedcpp/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/learning.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/main.cpp.o -c /home/tronje/learning/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/learning.dir/main.cpp.o -c /home/tronje/Documents/learning/acceleratedcpp/main.cpp
 
 CMakeFiles/learning.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learning.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tronje/learning/main.cpp > CMakeFiles/learning.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/tronje/Documents/learning/acceleratedcpp/main.cpp > CMakeFiles/learning.dir/main.cpp.i
 
 CMakeFiles/learning.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learning.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tronje/learning/main.cpp -o CMakeFiles/learning.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/tronje/Documents/learning/acceleratedcpp/main.cpp -o CMakeFiles/learning.dir/main.cpp.s
 
 CMakeFiles/learning.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/learning.dir/main.cpp.o.requires
@@ -97,6 +97,6 @@ CMakeFiles/learning.dir/clean:
 .PHONY : CMakeFiles/learning.dir/clean
 
 CMakeFiles/learning.dir/depend:
-	cd /home/tronje/learning/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tronje/learning /home/tronje/learning /home/tronje/learning/build /home/tronje/learning/build /home/tronje/learning/build/CMakeFiles/learning.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tronje/Documents/learning/acceleratedcpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tronje/Documents/learning/acceleratedcpp /home/tronje/Documents/learning/acceleratedcpp /home/tronje/Documents/learning/acceleratedcpp/build /home/tronje/Documents/learning/acceleratedcpp/build /home/tronje/Documents/learning/acceleratedcpp/build/CMakeFiles/learning.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/learning.dir/depend
 

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tronje/learning/main.cpp
+/home/tronje/Documents/learning/acceleratedcpp/main.cpp
+iomanip
+-
+ios
+-
 iostream
 -
 string
